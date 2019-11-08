@@ -1,12 +1,3 @@
-/* CSS reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 100%;
-}
-
-/*hátérkép, ne ismétlődjön, középre,*/
 html {
 	display:block:
 }
@@ -17,7 +8,13 @@ html, body {
     font-size: 100%;
     line-height: 1.5;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/*hátérkép, ne ismétlődjön, középre,*/
 body {
   background-image: url("assets/freedom.jpg");
   background-repeat: no-repeat;
@@ -33,18 +30,19 @@ body {
 
 
 #szoveg_keret {
-	padding-top: 4rem;
+	padding-top:4rem;
     width: 90%;
-    margin: 0 auto;
+	margin:0 auto;
     text-align: center;
 		
 }
 
 #idezet {
-	text-transform: uppercase;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size:1.5rem;
 	text-align:center;
+	padding:0;
+	margin:0;
 }
 
 #alairas {
@@ -58,7 +56,7 @@ div {
 	display:block;
 }
 	
-szovegtuaj {
+.szovegtulaj {
 	display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -73,6 +71,6 @@ q {
 
 p {
 	font-family: 'Crimson Text', serif;
-    font-size: 1.5rem;
+    
     font-style: italic;
 }
